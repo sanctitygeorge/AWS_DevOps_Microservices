@@ -54,7 +54,7 @@ source .devops/bin/activate
     `docker run -p 8080:80 <Docker ID>/<image name>:tag`
 
 * Run via kubectl
-    - kubectl run machine-learning-api --image=$dockerpath --port=80
+    - `kubectl run machine-learning-api --image=$dockerpath --port=80`
     - `kubectl port-forward <name> 8080:80`
 
 ### Folder and File Structures
