@@ -47,8 +47,8 @@ source .devops/bin/activate
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally. You'll need to install Docker, Minikube and/or VirtialBox to run K8s locally. The following commands spin up a Kubernetes cluster and configure it to run the Docker image you've built
 
-    minikube start
-    kubectl get pod
+    - minikube start
+    - kubectl get pod
 
 * Create Flask app in Docker Container as below: 
     `docker run -p 8080:80 <Docker ID>/<image name>:tag`
